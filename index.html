@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>龙口</title>
+    <link rel="stylesheet" href="scripts/swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="styles/index.css?__inline">
+</head>
+
+<body>
+    <header>
+        <h1>龙口</h1>
+    </header>
+    <div class="body">
+        <div class="index-banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/2016-4/PIC_20160403_122134_A73.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/2016-4/PIC_20160403_161149_A2C.JPG">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/2016-4/PIC_20160403_112606_0B4.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/2016-4/PIC_20160402_155916_3D1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/daogu-1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/daogu-2.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="news-list">
+            <div class="row-flex">
+                <div class="f-col">
+                    <img src="images/daogu-1.jpg">
+                </div>
+                <div class="f-col-2-6">
+                    <h3 class="news-title">新建礼堂筹建项目</h3>
+                    <p class="news-content">这里是具体内容，暂未填写。</p>
+                    <div>
+                        <span class="time">2016-10-15</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <footer>
+        <ul class="row-flex">
+            <li class="f-col active">首页</li>
+            <li class="f-col">头条</li>
+            <li class="f-col">我的</li>
+        </ul>
+    </footer>
+    -->
+    <script src="scripts/swiper/3.3.1/js/swiper.min.js"></script>
+    <script>
+    ! function(window, document) {
+
+        new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            // spaceBetween: 30,
+            loop: true,
+            autoplay: 2500,
+            autoHeight: true
+        })
+
+        // var footerNav = document.querySelector('footer ul'),
+        //     footerNavItems = footerNav.querySelectorAll('li')
+        // footerNav.onclick = function(e) {
+        //     var node = e.target
+        //     if (node.nodeName.toLowerCase() === 'li') {
+        //         [].forEach.call(footerNavItems, (function(el) {
+        //             var cls = ' ' + el.className + ' '
+        //             if (cls.indexOf(' active ') > -1) {
+        //                 el.className = cls.replace(/ active /gi, ' ')
+        //             }
+        //         }))
+        //         node.className += ' active '
+        //     }
+        // }
+    }(window, document)
+    </script>
+</body>
+
+</html>
